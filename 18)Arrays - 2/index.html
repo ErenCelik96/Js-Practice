@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays-2</title>
+</head>
+<body>
+
+    <script>
+        var renkler = new Array(3);
+        renkler[0] = "red";
+        renkler[1] = "yellow";
+        renkler[2] = "purple";
+
+        document.write(renkler+ "<hr>");
+
+
+        var renkler3 = new Array();
+        renkler3[0] = "red";
+        renkler3[1] = "yellow";
+        renkler3[2] = "purple";
+
+        document.write(renkler3+ "<hr>");
+        document.write(renkler3.length+"<br>");
+
+        var takımlar1 = ["GS","FB"];
+        var takımlar2 = ["BJK","TS"];
+        
+        var takımlar = takımlar1.concat(takımlar2)
+
+        document.write(takımlar+"<hr>")
+
+        var kişi = []
+        kişi["isim"] = "Lütfullah"
+        kişi["yaş"] = 28
+
+        document.write(kişi.isim + " "+ kişi.yaş+"<hr>");
+        document.write(kişi["isim"]+" "+kişi["yaş"])
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
